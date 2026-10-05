@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.khelnest.app",
+      "sha256_cert_fingerprints": [
+        "60:0B:43:BD:72:0B:F2:78:7E:F5:5B:F4:8C:E8:DC:C4:23:1A:31:03:52:A1:72:6D:63:53:B6:60:40:44:7A:74"
+      ]
+    }
+  }
+]

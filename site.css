@@ -1,0 +1,71 @@
+.site-header .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.site-header nav { margin: 0; }
+.landing-main { max-width: none; padding: 0; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 0; margin: 0 0 18px; }
+.hero { background: #edf5f2 url("/assets/hero.jpg") center right / cover no-repeat; min-height: 580px; }
+.hero-inner { max-width: 1100px; margin: auto; padding: 72px 24px 54px; }
+.hero h1 { font-size: 80px; line-height: 1; margin: 0 0 18px; }
+.hero-copy { font-size: 36px; line-height: 1.15; font-weight: 600; margin-bottom: 20px; }
+.hero-detail { max-width: 330px; color: #44514e; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 24px; margin-top: 28px; }
+.primary-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 32px; background: #086c69; color: white; padding: 12px 20px; text-decoration: none; border-radius: 6px; font-weight: 600; }
+.primary-link:hover { background: #075a58; }
+.release-status { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #43524c; margin: 24px 0 0; }
+.release-status span { width: 7px; height: 7px; border-radius: 50%; background: #347453; flex: 0 0 auto; }
+.games-section, .trust-section { max-width: 1100px; margin: auto; padding: 62px 24px; scroll-margin-top: 20px; }
+.section-heading { display: grid; grid-template-columns: 1.25fr 1fr; gap: 36px; align-items: end; margin-bottom: 34px; }
+.section-heading h2 { font-size: 36px; line-height: 1.15; margin: 0; }
+.section-heading > p { color: var(--muted); margin: 0; font-size: 15px; }
+.game-showcase { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 28px; }
+.game-story { border: 0; padding: 0; min-width: 0; }
+.screen-stage { height: 390px; display: flex; justify-content: center; overflow: hidden; }
+.bubble-stage { background: #cceeea; }
+.xo-stage { background: #f6dce1; }
+.puzzle-stage { background: #e4ecbb; align-items: center; }
+.screen-stage img { display: block; width: auto; height: 100%; max-width: 100%; object-fit: contain; }
+.screen-stage img.puzzle-picture { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
+.game-caption { padding-top: 20px; }
+.game-caption span { font-size: 11px; color: var(--muted); }
+.game-caption h3, .trust-links h3 { font-size: 23px; margin: 6px 0 8px; font-weight: 600; line-height: 1.25; }
+.game-caption p { font-size: 15px; color: var(--muted); margin: 0; }
+.practice-band { background: #143f3e; color: #fff; }
+.band-inner { max-width: 1100px; margin: auto; padding: 58px 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 70px; }
+.band-inner h2 { font-size: 42px; line-height: 1.1; margin: 0; }
+.band-inner p:not(.eyebrow) { font-size: 16px; color: #e0ece8; }
+.band-inner a { color: #f3d75f; }
+.trust-links { display: grid; gap: 0; border-top: 1px solid var(--border); }
+.trust-links > a { display: grid; grid-template-columns: 42px 1fr 24px; align-items: center; gap: 20px; border-bottom: 1px solid var(--border); padding: 24px 0; text-decoration: none; }
+.trust-links > a:hover h3 { text-decoration: underline; }
+.trust-links p { margin: 0; color: var(--muted); font-size: 15px; }
+.trust-links h3 { color: var(--ink); margin-top: 0; }
+.trust-links > a > span { font-size: 14px; }
+.launch-note { color: var(--muted); font-size: 13px; margin: 24px 0 0; max-width: 88ch; }
+.support-page main { min-height: 66vh; }
+.support-page .primary-link { margin-bottom: 20px; }
+.invite-note { margin-top: 26px; }
+@media (prefers-reduced-motion:no-preference) { .hero-inner { animation: arrive .45s ease-out both; } @keyframes arrive { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } } }
+@media (min-width:1600px) { .hero { min-height: 660px; } .hero-inner { padding-top: 96px; } }
+@media (max-width:760px) {
+  .site-header .header-inner { align-items: flex-start; gap: 14px; }
+  .site-header nav { gap: 8px 16px; justify-content: flex-end; font-size: 13px; }
+  .brand { font-size: 21px; gap: 8px; }
+  .brand img { width: 34px; height: 34px; }
+  .hero { background-image: url("/assets/hero-mobile.jpg"); min-height: 650px; background-position: center bottom; }
+  .hero-inner { padding: 36px 18px 270px; }
+  .hero h1 { font-size: 56px; }
+  .hero-copy { font-size: 28px; }
+  .hero-detail { font-size: 15px; max-width: 310px; }
+  .hero-actions { margin-top: 20px; gap: 20px; }
+  .release-status { font-size: 11px; }
+  .section-heading, .band-inner { grid-template-columns: 1fr; gap: 22px; }
+  .section-heading h2 { font-size: 30px; }
+  .game-showcase { grid-template-columns: 1fr; gap: 32px; }
+  .screen-stage { height: 450px; }
+  .puzzle-stage { height: auto; aspect-ratio: 1; }
+  .games-section, .trust-section { padding: 42px 18px; }
+  .band-inner { padding: 42px 18px; gap: 24px; }
+  .band-inner h2 { font-size: 34px; }
+  .trust-links > a { grid-template-columns: 26px 1fr 20px; gap: 12px; }
+  .site-footer { align-items: flex-start; }
+}
+@media (max-width:359px) { .hero h1 { font-size: 50px; } .hero-actions { gap: 12px; } .primary-link { gap: 16px; } }

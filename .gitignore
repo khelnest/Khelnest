@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+*.jks
+*.keystore
+key.properties
+env*.json
+*service-account*.json
