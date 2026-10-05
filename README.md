@@ -72,6 +72,10 @@ contents. Policy text and account-deletion links remain available without JS.
 The current KhelNest logo is used in navigation, the favicon and social previews.
 The contact page also links the official WhatsApp channel for optional updates;
 account and payment support remains a separate email route.
+The current currency label is NestCoin. The app uses a local joined checkbox
+confirmation to stop channel reminders; until confirmed, reminders are spaced
+at least 24 hours apart on eligible Home visits/app resumes. No WhatsApp API is
+used and opening a link is not proof of joining.
 
 Configure khelnest.in and www.khelnest.in in Vercel, using the DNS values shown
 for that project; redirect www to the apex. The CNAME and .nojekyll files are
