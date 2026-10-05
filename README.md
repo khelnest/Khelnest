@@ -44,6 +44,12 @@ Deployments, then check the actual production domain. An unchanged page alone
 does not establish a failed auto-deploy system. Git acceptance and successful
 production deployment are separate checks.
 
+On 5 October 2026, commit `6f3032e` was pushed and GitHub reported a successful
+Vercel production deployment. The live contact/privacy pages, App Links JSON and
+new logo matched the local files over HTTPS. Later privacy-copy updates correct
+Google-only user login and explain the signed-in payout-proof feed and optional
+WhatsApp handoff; check the newest deployment after each subsequent push.
+
 ## Updating From The App Workspace
 
 Generate the public website from the user-app directory:
