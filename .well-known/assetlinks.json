@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "com.khelnest.app",
       "sha256_cert_fingerprints": [
-        "60:0B:43:BD:72:0B:F2:78:7E:F5:5B:F4:8C:E8:DC:C4:23:1A:31:03:52:A1:72:6D:63:53:B6:60:40:44:7A:74"
+        "60:0B:43:BD:72:0B:F2:78:7E:F5:5B:F4:8C:E8:DC:C4:23:1A:31:03:52:A1:72:6D:63:53:B6:60:40:44:7A:74",
+        "09:64:1E:8E:A9:3F:8A:32:AF:F8:50:BD:CD:C2:33:74:91:AE:9F:E6:16:57:24:4D:24:32:42:C5:85:8C:E0:9C"
       ]
     }
   }

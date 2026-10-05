@@ -1,6 +1,2 @@
 User-agent: *
 Allow: /
-Disallow: /privacy/
-Disallow: /terms/
-Disallow: /delete-account/
-Disallow: /reward-rules/
